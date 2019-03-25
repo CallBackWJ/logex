@@ -23,10 +23,10 @@ public class ExampleController3 {
 		 *  
 		 *  1. fileAppender3 와 "com.cafe24.logexample3" logger 를 살펴 보아야 합니다.
 		 *  
-		 *  2. fileAppender3 에서는 C:\LogExample\logexample3.log 로그파일 지정과
+		 *  2. fileAppender3 에서는 /logExample/logexample3.log 로그파일 지정과
 		 *  
-		 *  3. 1MB 가 넘었을 때, C:\LogExample\logexample3.x.log.zip 으로 압축되고 새로 
-		 *     logexample3.log 파일이 생성되는 것을 확인해 봐야 합니다.
+		 *  3. 1MB 가 넘었을 때, /logExample/logexample3.x.log.zip 으로 압축되고 새로 
+		 *     logex3.log 파일이 생성되는 것을 확인해 봐야 합니다.
 		 *    
 		 *  4. 새로운 로거를 세팅하고 있습니다.
 		 *     "com.cafe24.logexample3" 로거인데, 콘솔과 파일로 로그를 남기고 있는 것을 확인해야
